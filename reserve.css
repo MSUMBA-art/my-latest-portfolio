@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(196, 196, 235);
+}
+
+.testimonial {
+    max-width: 900px;
+    position: relative;
+    width: 100%;
+    background-color: rgb(250, 249, 250);
+    padding: 50px 0;
+    row-gap: 30px;
+}
+
+.testimonial .image {
+    height: 170px;
+    width: 170px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.testimonial .slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.slide p {
+    text-align: center;
+    padding: 0 160px;
+    color: rgb(92, 92, 92);
+}
+
+.slide .stars {
+    flex: 30px;
+    color: red;
+}
+
+.slide .details {
+  display: flex;  
+  flex-direction: column;
+  align-items: center;
+}
+.details .name {
+    font-size: 14px;
+    font-weight: 600;
+    color: #333;
+}
+
+.details .job {
+    font-size: 13px;
+    font-weight: 500;
+    color: #333;
+}
+
